@@ -104,7 +104,7 @@ When you call a function like this and pass values to it, those values are calle
 
 Here's the javascript function syntax, illustrated:
 
-![parts of a function](images/parts-of-a-function)
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.3-functions/master/images/functions.png">
 
 ## Return Values
 So far, the functions we've made have had side effects - printing something out to the console - but they haven't passed results back. When we used the addition function, it didn't just print something - we could store the result in a variable.
