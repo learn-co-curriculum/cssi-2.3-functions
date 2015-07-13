@@ -14,9 +14,9 @@ After the lesson, you'll be able to understand:
 
 
 ## Functions in Javascript
-Like variables, you are probably familiar with functions from math class. Functions in code are similar to those in class - they take some data and transform it in some way. Those transformations are really useful to us - they're the work that we want the computer to do.
 
-Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again. Secretly, we've been using a handful functions already - all of the operations that we've learned are functions that are built into javascript. This lesson will show how we can write our own functions, and maybe give us some insight into how the other functions we use work!
+
+Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again. 
 
 In programming, a function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to repeat a set of actions multiple times.
 
@@ -54,7 +54,7 @@ And then we can use the function like this:
 > checkout(12,9.99,.05)
 20.89
 ```
-So much easier than going through all of those steps every time!
+
 
 ##Declaration
 A function is a set of instructions that we write out once and reuse over and over. We call creating a new set of instructions **declaring a function**.
@@ -66,7 +66,7 @@ function name() {
     // instructions here
 };
 ```
-The instructions go inside the curly braces. Let’s add some instructions inside of a function in our my_script.js file and reload our html page to run the program.
+The instructions go inside the curly braces. 
 
 ```
 function goGetLunch() {
@@ -77,7 +77,7 @@ function goGetLunch() {
 ```
 
 ## Calling a function
-We use a function with its name. The name for this is calling the function. In javascript, we write it like this:
+We use a function with its name. The name for this is calling the function. 
 
 ```
 goGetLunch();
@@ -85,9 +85,9 @@ goGetLunch();
 This is the equivalent of telling the computer - do those steps in the goGetLunch function. The parentheses are necessary to let the browser know that we want to run the instructions.
 
 ##Passing in Parameters
-Parameters allow you to pass values into functions - they help make functions reusable. Instead of using the same values every time you use the function, you can use the same set of instructions on different data. Instead of having to write a new goGetLunch function for each student, we can write it once, and then use it on any student we want.
+Parameters allow you to pass values into functions - they help make functions reusable. Instead of using the same values every time you use the function, you can use the same set of instructions on different data. 
 ```
-function goGetLunch(student) {
+function goGetLunch(student) { 
   console.log('hey, ' + student);
   console.log('close your computer');
   console.log('stand up');
@@ -102,9 +102,7 @@ goGetLunch("Josie");
 ```
 When you call a function like this and pass values to it, those values are called arguments. We can reuse this function, and change the name of the student we address by adding a different student argument.
 
-Here's the javascript function syntax, illustrated:
-
-<img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.3-functions/master/images/functions.png">
+In the above example, `student` in the function definition is the parameter. But when we actually call the function with a student's name, the strings "Joe", "Jill", "Josie" are arguments.
 
 ## Return Values
 So far, the functions we've made have had side effects - printing something out to the console - but they haven't passed results back. When we used the addition function, it didn't just print something - we could store the result in a variable.
