@@ -13,15 +13,10 @@ After the lesson, you'll be able to understand:
 + NICO
 
 
-## Functions in Javascript
-
-
-Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again. 
-
-In programming, a function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to repeat a set of actions multiple times.
-
 ## What is a function?
 A function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to repeat a set of actions multiple times.
+
+Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again. 
 
 Imagine you are a cashier. Every time a customer checks out, you need to
 
@@ -113,7 +108,7 @@ function addTwice(x,y){
     return x+x+y+y;
 }
 ```
-When we have a return statement, we leave the function and give back that value. By saying return we’re telling the function give us back the answer.
+When we have a return statement, we leave the function and give back that value. By saying return we’re asking the function to give us back the answer.
 
 ```
 > var y = addTwice(3,5);
@@ -129,4 +124,4 @@ We can break down the creation of functions into four things that every function
 + **Code** - Put the code inside the function to be run when it is called
 + **Output** - A value that the function can return though it can be undefined
 
-Functions are the building block of any developer. They let you create little machines that you can use and re-use from other parts of your code. This can make life a lot easier and save a ton of typing!
+Functions are the building blocks of any developer. They let you create little machines that you can use and re-use in other parts of your code. This can make life a lot easier and save a ton of typing!
