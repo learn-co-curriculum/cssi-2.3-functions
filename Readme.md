@@ -115,7 +115,6 @@ When we have a return statement, we leave the function and give back that value.
 > console.log(y)
 16
 ```
-Most of the time functions don’t live all alone by themselves - they rely on other functions!
 
 ##N.I.C.O
 We can break down the creation of functions into four things that every function has:
