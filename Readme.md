@@ -24,7 +24,7 @@ Imagine you are a cashier. Every time a customer checks out, you need to
 2. Apply any coupons
 3. Print out the total
 
-If you were using the javascript console, this set of actions might look like:
+If you were using the JavaScript console, this set of actions might look like:
 ```
 > 33 + 19 // add the prices of the items
 52
